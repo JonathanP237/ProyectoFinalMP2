@@ -1,0 +1,39 @@
+.body-background {
+    background-color: #000; /* Cambia esto al color que prefieras */
+    min-height: 100vh; /* Asegura que el elemento tenga al menos la altura de la ventana del navegador */
+    width: 100%;
+  }
+
+.form-group {
+    text-align: left;
+}
+
+.crear {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: 30px;
+  }
+
+.form-group input{
+    width: 85%;
+    margin-bottom: 20px;
+}
+.form-group select {
+    width: 85%;
+    margin-bottom: 20px;
+}
+
+.form-group button {
+    margin-top: 20px;
+    text-align: center; /* Centrar el botón */
+    display: block;
+    margin-left: auto; /* Centrar horizontalmente */
+    margin-right: auto; /* Centrar horizontalmente */
+    margin-right: 40%; /* Mover el botón a la izquierda */
+}
+

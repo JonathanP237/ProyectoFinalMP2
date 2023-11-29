@@ -1,0 +1,153 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('/public/fondo.png');
+  background-size: cover;
+  background-position: center; 
+}
+
+.Admin {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+.tabla {
+  display: flex;
+  justify-content: center;
+  overflow: auto; 
+  max-height: 30vh; 
+  margin-right: 20px; 
+}  
+
+.tabla2 {
+  display: flex;
+  justify-content: center;
+  overflow: auto; 
+  max-height: 30vh; 
+  margin-left: 40px; 
+} 
+
+.tabla2 table {
+  background-color: rgba(242, 242, 242, 0.5); 
+  width: 100%; 
+  margin: 0; 
+  padding: 0;  
+}
+
+.tabla table {
+  background-color: rgba(242, 242, 242, 0.5); 
+  width: 100%; 
+  margin: 0; 
+  padding: 0;  
+}
+
+.tabla th, .tabla td {
+  text-align: center;
+}
+
+.tabla th {
+  white-space: nowrap;    
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  label {
+      font-family: 'Roboto', sans-serif; 
+      font-size: 16px;  
+      color: #777777;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -2px black;
+    }
+  
+  select {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px;  
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+      font-family: 'Roboto', sans-serif; 
+      font-size: 16px;
+      padding: 10px 20px;
+      background-color: #7aa4ff; 
+      color: #555555;
+      border: none;
+      border-radius: 10px;
+      margin: 4px 2px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  
+  button[type="submit"]:hover {
+    background-color: #2f00ff;
+    color: #777777;
+  }
+  
+  h1{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 40px;
+    color: #888888;
+    margin-bottom: 10px;
+    text-shadow: -5px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
+  }
+
+  h2{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 25px;
+    color: #888888;
+    margin-bottom: 5px;
+    text-shadow: -5px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
+    align-items: center;
+  }
+
+  .Admin h2 {
+    text-align: center;
+  }
+  
+  p {
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    font-family: Hack, sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, rgb(18, 22, 250), #00d9ff, #006eff, #00ccff, rgb(18, 22, 250));
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 8s linear infinite;
+    position: absolute;
+    top: 0%;
+    left: 50%; 
+    transform: translateX(-50%); 
+  }
+
+  .social-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 10px; 
+    }
+  
+  @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }
